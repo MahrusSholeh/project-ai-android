@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SistemRekomendasiPusatOleh_OlehMalang" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SistemRekomendasiPusatOleh_OlehMalang" parent="Base.Theme.SistemRekomendasiPusatOleh_OlehMalang" />
+</resources>
