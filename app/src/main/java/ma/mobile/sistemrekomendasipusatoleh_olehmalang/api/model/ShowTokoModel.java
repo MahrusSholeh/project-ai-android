@@ -1,30 +1,30 @@
 package ma.mobile.sistemrekomendasipusatoleh_olehmalang.api.model;
 
 public class ShowTokoModel {
-    private String idOleholeh;
-    private String namaTempat;
+    private String id;
+
+    private String namaToko;
+
     private String lokasi;
 
-    // Getters
-    public String getIdOleholeh() {
-        return idOleholeh;
+    public String getId() {
+        return id;
     }
 
-    public String getNamaTempat() {
-        return namaTempat;
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getNamaToko() {
+        return namaToko;
+    }
+
+    public void setNamaToko(String namaToko) {
+        this.namaToko = namaToko;
     }
 
     public String getLokasi() {
         return lokasi;
-    }
-
-    // Setters
-    public void setIdOleholeh(String idOleholeh) {
-        this.idOleholeh = idOleholeh;
-    }
-
-    public void setNamaTempat(String namaTempat) {
-        this.namaTempat = namaTempat;
     }
 
     public void setLokasi(String lokasi) {

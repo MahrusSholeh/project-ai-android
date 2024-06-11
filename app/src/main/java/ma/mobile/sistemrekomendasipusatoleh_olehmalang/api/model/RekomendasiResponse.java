@@ -3,17 +3,16 @@ package ma.mobile.sistemrekomendasipusatoleh_olehmalang.api.model;
 import java.util.List;
 
 public class RekomendasiResponse {
-    private List<RekomendasiModel> rekomendasiList;
+    private List<RekomendasiModel> Data;
 
     // Getter
     public List<RekomendasiModel> getRekomendasiList() {
-
-        return rekomendasiList;
+        return Data;
     }
 
     // Setter
-    public void setRekomendasiList(List<RekomendasiModel> rekomendasiList) {
-        this.rekomendasiList = rekomendasiList;
+    public void setData(List<RekomendasiModel> Data) {
+        this.Data = Data;
     }
 }
 

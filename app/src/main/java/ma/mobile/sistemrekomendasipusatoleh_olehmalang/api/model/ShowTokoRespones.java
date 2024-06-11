@@ -3,16 +3,13 @@ package ma.mobile.sistemrekomendasipusatoleh_olehmalang.api.model;
 import java.util.List;
 
 public class ShowTokoRespones {
-    private List<RekomendasiModel> tokoList;
+    private List<TokoModel> Data;
 
-    // Getter
-    public List<RekomendasiModel> getTokoList() {
-        return tokoList;
+    public List<TokoModel> getData() {
+        return Data;
     }
 
-    // Setter
-    public void setTokoList(List<RekomendasiModel> tokoList) {
-        this.tokoList = tokoList;
+    public void setData(List<TokoModel> data) {
+        Data = data;
     }
 }
-

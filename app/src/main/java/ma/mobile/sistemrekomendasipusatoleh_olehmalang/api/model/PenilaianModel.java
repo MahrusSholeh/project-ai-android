@@ -1,30 +1,21 @@
 package ma.mobile.sistemrekomendasipusatoleh_olehmalang.api.model;
 
 public class PenilaianModel {
-    private String idMatrik;
-    private String idOlehOleh;
+    private String idTempat;
+
     private String idKriteria;
-    private double nilai;
 
+    private float nilai;
 
-    // Getter dan Setter
-    public String getIdMatrik() {
-        return idMatrik;
+    public String getIdTempat() {
+        return idTempat;
     }
 
-    public void setIdMatrik(String idMatrik) {
-        this.idMatrik = idMatrik;
+    public void setIdTempat(String idTempat) {
+        this.idTempat = idTempat;
     }
 
-    public String getIdOlehOleh() {
-        return idOlehOleh;
-    }
-
-    public void setIdOlehOleh(String idOlehOleh) {
-        this.idOlehOleh = idOlehOleh;
-    }
-
-    public String getIdKriteria() {
+    public String getIdKriteria(String selectedKriteriaId) {
         return idKriteria;
     }
 
@@ -32,11 +23,11 @@ public class PenilaianModel {
         this.idKriteria = idKriteria;
     }
 
-    public double getNilai() {
+    public float getNilai() {
         return nilai;
     }
 
-    public void setNilai(double nilai) {
+    public void setNilai(float nilai) {
         this.nilai = nilai;
     }
 }
